@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+}
+h1 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 200;
+}
+body {
+  background-color: rgb(35, 144, 194);
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100vw;
+}
+.card {
+  display: inline;
+  background-color: rgb(253, 251, 246);
+  padding: 0 2.5rem;
+  margin-top: 15rem;
+  line-height: 3;
+  border: 1px solid rgb(122, 117, 117);
+  border-radius: 3%;
+}
+a:link {
+  text-decoration: none;
+  color: aliceblue;
+}
+button {
+  margin-left: 25%;
+  background-color: rgb(52, 190, 98);
+  padding: 0.5rem 1.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: 0.5px solid rgb(196, 193, 190);
+  border-radius: 1mm;
+}
+.forgot-psw span {
+  line-height: 5;
+  color: aliceblue;
+  font-weight: bold;
+}
+.forgot-psw a:link {
+  text-decoration: underline;
+  color: rgb(235, 216, 47);
+  font-weight: bold;
+}
